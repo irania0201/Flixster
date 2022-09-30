@@ -2,7 +2,7 @@
 
 Submitted by: **Irania Mazariegos**
 
-**Name of your app** is a movie browsing app that allows users to browse movies currently playing in theaters.
+**Flixster+** is a movie browsing app that allows users to browse movies currently playing in theaters.
 
 Time spent: **6** hours spent in total
 
@@ -42,6 +42,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+When I first ran the app, nothing would display on the screen. The errors displayed were related to the recycler view and the MoviesFragment file, but I was not able to find any mistakes. Finally, I realized that the issue was with the serialized name; I used my own variable name instead of the names provided by the API website. 
 
 ## License
 
