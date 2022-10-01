@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [ ] Improve and customize the user interface through styling and coloring
-- [ ] Implement orientation responsivity
+- [X] Implement orientation responsivity
   - App should neatly arrange data in both landscape and portrait mode
 - [ ] Implement Glide to display placeholder graphics during loading
   - Note: this feature is difficult to capture in a GIF without throttling internet speeds.  Instead, include an additional screencap of your Glide code implementing the feature.  (<10 lines of code)
@@ -31,6 +31,8 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='walkthrough-landscape.gif' title='Video Walkthrough - Landscape' width='' alt='Video Walkthrough - Landscape' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
