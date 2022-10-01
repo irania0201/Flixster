@@ -12,5 +12,9 @@ class Movies {
     @JvmField
     @SerializedName("poster_path")
     var movieImageUrl: String? = null
+
+    @JvmField
+    @SerializedName("backdrop_path")
+    var landImageUrl: String?= null
 }
 

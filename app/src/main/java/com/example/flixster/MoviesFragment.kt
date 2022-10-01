@@ -80,10 +80,10 @@ class MoviesFragment : Fragment(), OnListFragmentInteractionListener {
                         // Get the "books" from those results, as a String:
                         //val booksRawJSON : String = resultsJSON.get("books").toString()
 
-                        val booksRawJSON : String = json.jsonObject.get("results").toString()
+                        val moviesRawJSON : String = json.jsonObject.get("results").toString()
                         val gson = Gson()
-                        val arrayBookType = object : TypeToken<List<Movies>>() {}.type
-                        val models : List<Movies> = gson.fromJson(booksRawJSON, arrayBookType)
+                        val arrayMovieType = object : TypeToken<List<Movies>>() {}.type
+                        val models : List<Movies> = gson.fromJson(moviesRawJSON, arrayMovieType)
                         recyclerView.adapter = MoviesRecyclerViewAdapter(models, this@MoviesFragment)
 
 
